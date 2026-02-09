@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:text="Rectangle Calculator"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/length"
+        android:hint="Enter length"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/breadth"
+        android:hint="Enter breadth"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Calculate Area"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:onClick="calculate"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
