@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:text="AREA CALCULATOR"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Square"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:onClick="openSquare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Rectangle"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:onClick="openRectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:text="Circle"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:onClick="openCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:text="Triangle"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:onClick="openTriangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
